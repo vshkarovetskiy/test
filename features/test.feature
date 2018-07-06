@@ -1,6 +1,8 @@
 @Regression
 Feature: test-feature
 
+Description: the first test feature
+
   Background:
     Given User prints comment "User navigates to the Calculator page"
     When User navigates to the Calculator page with url "http://juliemr.github.io/protractor-demo/"
