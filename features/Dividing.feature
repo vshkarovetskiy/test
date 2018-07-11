@@ -11,6 +11,6 @@ Feature: Dividing function
     When User enters 2 in field "[ng-model='second']"
     When User selects "[value='DIVISION']" from dropdown "select"
     When User clicks Go Button "#gobutton"
-    Then Result "h2" is equal to "0.5"
+    Then Result "h2" is equal to "."
     Then Go button "button#gobutton.btn" is displayed
     Then Go button "button#gobutton.btn" contains "Go" text
