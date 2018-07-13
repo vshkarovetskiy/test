@@ -1,3 +1,4 @@
+@echo off
 call npm install
 call npm run webdriver-update
 call npm run webdriver
